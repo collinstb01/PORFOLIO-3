@@ -6,7 +6,7 @@ const About = () => {
         <span className="flex items-center space-x-4 ml-2">
           Collins.
           <img
-            src="/src/assets/TB.jpeg"
+            src="/src/assets/tb.jpeg"
             alt="Collins"
             className="w-10 rotate-6 ml-2 rounded-md hover:-rotate-6 transition-all duration-500 ease-in-out"
           />
