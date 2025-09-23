@@ -1,6 +1,6 @@
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import About from "./components/About.tsx";
+import Projects from "./components/Projects.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   return (
