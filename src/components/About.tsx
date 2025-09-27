@@ -40,16 +40,18 @@ const About = () => {
           <span className="inline-flex items-center align-middle">
             🟨 JavaScript
           </span>{" "}
-          ecosystem — building with React Native, React, and Node.js (NestJS & Express.js).
+          ecosystem — building with React Native, React, and Node.js (NestJS &
+          Express.js).
         </p>
 
         <p>
-          I also work with Rust, Python, C#, and Solidity, and build across Flutter, SQL, and NoSQL DBs like MongoDB, PostgreSQL, etc.
+          I also work with Rust, Python, C#, and Solidity, and build across
+          Flutter, SQL, and NoSQL DBs like MongoDB, PostgreSQL, etc.
         </p>
 
-        <p className="italic text-gray-600">
+        <p className="italic text-gray-400">
           <q>
-            My goal? To be so skilled and resourceful that I’m hard to ignore.
+            My goal? To be so skilled and resourceful that I'm hard to ignore.
           </q>
         </p>
       </div>

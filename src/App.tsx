@@ -1,5 +1,6 @@
 import About from "./components/About.tsx";
 import Projects from "./components/Projects.tsx";
+import Experience from "./components/Experience.tsx";
 import Footer from "./components/Footer.tsx";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className="max-w-2xl mx-auto px-5 py-10">
         <About />
         <Projects />
+        <Experience />
         <Footer />
       </div>
     </div>
