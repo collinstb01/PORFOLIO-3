@@ -32,7 +32,7 @@ const About = () => {
         </p>
 
         <p>
-          You'll mostly find me working within the{" "}
+          You'll usually find me working in the{" "}
           <span className="inline-flex items-center align-middle">
             🔷 TypeScript
           </span>
@@ -40,13 +40,11 @@ const About = () => {
           <span className="inline-flex items-center align-middle">
             🟨 JavaScript
           </span>{" "}
-          ecosystem — shipping with React Native, React, and Node.js (NestJS &
-          Express.js) — and I also work with Rust, Python, c#, and Solidity.
+          ecosystem — building with React Native, React, and Node.js (NestJS & Express.js).
         </p>
 
         <p>
-          I build with Flutter, SQL, and NoSQL, and I love learning new things
-          while building.
+          I also work with Rust, Python, C#, and Solidity, and build across Flutter, SQL, and NoSQL DBs like MongoDB, PostgreSQL, etc.
         </p>
 
         <p className="italic text-gray-600">
