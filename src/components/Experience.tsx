@@ -2,7 +2,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "Backend Engineer",
-      company: "Mr Paul",
+      company: "Nutlip",
       type: "Part-time",
       period: "February, 2024",
       description:
@@ -11,7 +11,7 @@ const Experience = () => {
     },
     {
       title: "Frontend and Web3 Developer",
-      company: "Mr Jack",
+      company: "Ovation",
       type: "Part-time",
       period: "November, 2024 - September, 2025",
       description:
