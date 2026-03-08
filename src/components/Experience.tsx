@@ -1,39 +1,43 @@
 const Experience = () => {
   const experiences = [
     {
-      title: "Backend Engineer",
-      company: "Nutlip",
-      type: "Part-time",
-      period: "February, 2024",
+      title: "Senior Full-Stack / Backend Engineer",
+      company: "Mr Tob",
+      type: "Full-time",
+      period: "October, 2025 - Present",
+      location: "Port Harcourt City, Nigeria",
       description:
-        "Developed and maintained scalable backend systems, designing APIs, managing databases, and optimizing server performance to ensure secure and efficient application functionality.",
+        "Led the backend architecture for a scalable utility fintech platform, delivering secure APIs for web and mobile applications. Owned backend system design, database modeling, and core business logic for wallets, transactions, utilities, and rewards. Integrated payment providers and built a comprehensive admin system for operations, reporting, and monitoring.",
+      icon: "⚡",
+    },
+    {
+      title: "Lead Backend Engineer",
+      company: "Mr Paul",
+      type: "Remote",
+      period: "February, 2024 - Present",
+      location: "United States",
+      description:
+        "Designed and maintained scalable backend systems powering production web and mobile applications. Built and optimized APIs, managed databases, and improved server performance and reliability. Implemented secure data flows, validation, and error handling for high-traffic systems while collaborating with frontend and product teams.",
       icon: "⚙️",
     },
     {
       title: "Frontend and Web3 Developer",
-      company: "Ovation",
-      type: "Part-time",
+      company: "Mr Jack",
+      type: "Contract",
       period: "November, 2024 - September, 2025",
+      location: "United States",
       description:
-        "Developed and maintained the frontend for a decentralized application (dApp) enabling users to view their NFTs across all blockchains. Focused on Web3 wallet integration, ensuring seamless interaction with blockchain networks and smart contracts.",
+        "Led frontend development for a Web3 decentralized application enabling users to view NFTs across multiple blockchains. Implemented wallet integrations and blockchain interactions for seamless user experiences. Built responsive, user-friendly interfaces using modern frontend technologies.",
       icon: "🌐",
-    },
-    {
-      title: "Blockchain Developer Intern",
-      company: "Somidax",
-      type: "Internship",
-      period: "September, 2022 - March, 2023",
-      description:
-        "Designed and developed Somidax, a feature-rich decentralized application (dApp) with advanced functionalities for seamless user interaction. Implemented core functionalities, enabling users to deposit, transfer, and withdraw SMDX tokens securely.",
-      icon: "⛓️",
     },
     {
       title: "Full Stack Web And Mobile Developer",
       company: "Sarutech",
       type: "Full-time",
       period: "January, 2022 - January, 2023",
+      location: "Benin City, Nigeria",
       description:
-        "Worked with a great team building complex and usable mobile and web applications. Mentored and taught over 50 students on various tech stacks, sharing knowledge and guiding them through hands-on projects to build practical skills.",
+        "Built and maintained complex web and mobile applications across multiple client projects. Contributed to both backend and frontend development, delivering production-ready solutions. Mentored and trained 50+ students and supported junior developers to drive team growth and technical best practices.",
       icon: "💻",
     },
   ];
@@ -59,6 +63,9 @@ const Experience = () => {
                   </span>
                   <span className="rounded-sm bg-white/10 px-2 py-1 text-xs text-gray-300">
                     {exp.period}
+                  </span>
+                  <span className="rounded-sm bg-white/10 px-2 py-1 text-xs text-gray-300">
+                    {exp.location}
                   </span>
                 </div>
                 <p className="text-gray-400 text-sm mb-2">{exp.company}</p>

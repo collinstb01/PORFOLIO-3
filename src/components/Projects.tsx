@@ -1,6 +1,13 @@
 const Projects = () => {
   const projects = [
     {
+      title: "REFACTOR AI",
+      description:
+        "AI-powered code analysis and architecture audit platform. Analyzes GitHub repositories using large language models to generate automated architectural audits, actionable refactor suggestions, and project health metrics.",
+      icon: "🤖",
+      href: "https://refactorai.devtb.xyz/",
+    },
+    {
       title: "OVATION",
       description:
         "All Your NFTs One Powerful Profile. Unify your NFT portfolio from multiple blockchains into one sleek link to share with your Web3 friends.",
