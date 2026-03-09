@@ -20,12 +20,14 @@ const Projects = () => {
       icon: "🌐",
       href: "https://www.ovation.network/",
     },
+    /*
     {
       title: "Fxnction Event App",
       description:
         "End-to-end real-time event system owning both backend and frontend architecture. Built backend services for event creation and RSVP management, alongside a responsive frontend for sending live notifications.",
       icon: "🎉",
     },
+    */
     {
       title: "ELLASET",
       description:
