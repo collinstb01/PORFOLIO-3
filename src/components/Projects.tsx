@@ -8,19 +8,32 @@ const Projects = () => {
       href: "https://refactorai.devtb.xyz/",
     },
     {
+      title: "Billp",
+      description:
+        "Utility Platform with Secure Transactions & Reward System. Designed and implemented the backend architecture using Laravel for wallets, transactions, utilities, rewards, and promotions with a robust admin system and secure third-party integrations.",
+      icon: "⚡",
+    },
+    {
       title: "OVATION",
       description:
-        "All Your NFTs One Powerful Profile. Unify your NFT portfolio from multiple blockchains into one sleek link to share with your Web3 friends.",
+        "Web3 Social & NFT Platform. Designed and built responsive web interfaces with seamless Web3 integrations. Implemented wallet connectivity, NFT display, and blockchain interactions to ensure reliable user flows.",
       icon: "🌐",
       href: "https://www.ovation.network/",
     },
     {
-      title: "ELLASET Crypto Wallet",
+      title: "Fxnction Event App",
       description:
-        "React Native crypto wallet with core functionality similar to MetaMask. Features wallet generation, secure seed phrase management, and crypto transfers.",
+        "End-to-end real-time event system owning both backend and frontend architecture. Built backend services for event creation and RSVP management, alongside a responsive frontend for sending live notifications.",
+      icon: "🎉",
+    },
+    {
+      title: "ELLASET",
+      description:
+        "Mobile crypto wallet application with core functionality similar to MetaMask. Developed wallet generation, secure seed phrase management, crypto transfers, transaction broadcasting, and in-app swaps.",
       icon: "💳",
       href: "https://github.com/collinstb01/Crypto-Wallet",
     },
+    /*
     {
       title: "HIDDENFACTBOOKS",
       description:
@@ -41,6 +54,7 @@ const Projects = () => {
         },
       ],
     },
+    */
   ];
 
   return (
@@ -60,9 +74,11 @@ const Projects = () => {
                 <h4 className="mt-2">{project.title}</h4>
                 <p className="mt-1 font-light">{project.description}</p>
 
-                {/* Multiple links for HIDDENFACTBOOKS */}
+                {/* Multiple links */}
+                {/* @ts-ignore */}
                 {project.links ? (
                   <div className="flex gap-2 mt-2">
+                    {/* @ts-ignore */}
                     {project.links.map((link, linkIndex) => (
                       <a
                         key={linkIndex}
@@ -74,7 +90,7 @@ const Projects = () => {
                       </a>
                     ))}
                   </div>
-                ) : (
+                ) : project.href ? (
                   /* Single link for other projects */
                   <a
                     href={project.href}
@@ -83,7 +99,7 @@ const Projects = () => {
                   >
                     View Project →
                   </a>
-                )}
+                ) : null}
               </div>
             </div>
           </div>
